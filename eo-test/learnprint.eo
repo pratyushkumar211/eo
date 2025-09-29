@@ -1,0 +1,9 @@
++alias stdout org.eolang.io.stdout
++alias sprintf org.eolang.txt.sprintf
+
+[] > learnprint
+  5 > test
+  sprintf > y
+    "a %d"
+    * test
+  stdout y > @
